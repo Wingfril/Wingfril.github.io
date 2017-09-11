@@ -1,0 +1,49 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-image: url("Background.jpg");
+    width:100%;
+    height: 100%;
+    top: 0; right: 0; left: 0;
+    background-size: cover;
+    border-style:none;
+    margin:0;
+    min-height:100%;
+    background-attachment: fixed;
+    text-justify: inter-word;
+    text-align: justify;
+    position:relative;
+  }
+
+#backgroundImg {
+    background: url(Background.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -2;
+    }
+
+.sliding {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .4s ease, background-color .5s ease;
+}
+.sliding:hover:after {
+    width: 100%;
+    background: white;
+}
