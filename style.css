@@ -39,17 +39,39 @@ body{
     text-align: center;
 
 }
+
 #portrait {
     /*vertical-align: middle;*/
-    float:left;
+    margin-right: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 #about{
-  padding: 20px;
+    text-align: center;
+    padding: 90px;
 }
 
 #projects{
+  text-align: center;
   margin-top: 20px;
-  padding: 20px;
+  padding: 90px;
+}
+
+#summarizerLink{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+hr {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-style: inset;
+    border-width: 1px;
 }
 
 #backgroundImg {
