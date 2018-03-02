@@ -2,7 +2,7 @@ body{
     font-family: 'Raleway', sans-serif;
     color: white;
     background-color: #000000;
-    /*background-image: url("Background.jpg");*/
+    background-image: url("Background.jpg");
     width:100%;
     height: 100%;
     top: 0; right: 0; left: 0;
@@ -20,6 +20,7 @@ body{
   list-style-type: none;
   overflow: hidden;
   position: fixed;
+  z-index: 2;
   /*vertical-align: middle;*/
 }
 
@@ -83,8 +84,10 @@ body{
   padding-bottom: 30px;
   text-align: center;
   margin-top: 20px;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: auto;
+  width: 40%;
 }
 
 
@@ -172,13 +175,11 @@ hr {
 }
 
 #backgroundImg {
-    background: url(Background.jpg);
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url(Background.JPG);
     height: 100%;
     width: 100%;
+    padding: 0px;
+    margin: 0%;
     position: fixed;
     background-position: center center;
     background-repeat: no-repeat;
